@@ -1,0 +1,181 @@
+@import 'variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: var(--Very-dark-blue);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.container{
+    position: relative;
+    background-color: var(--dark-blue);
+    width: 355px;
+    height: 600px;
+    display: grid;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+.scoretime{
+    margin-left: 20px;
+}
+.scoretime>img{
+    width:initial;
+    height: initial;
+    
+}
+
+.timing >img{
+    width:initial;
+    height: initial;
+}
+.picture{
+    position: relative;
+    width:302px;
+    height: 302px;
+    border-radius: 10px;
+    margin-right: 26px;
+    margin-left:26px;
+    margin-top: 26px;
+}
+.picture__img{
+    width:302px;
+    height: 302px; 
+    border-radius: 10px;   
+
+}
+.picture__overlay{
+    position: absolute;
+    background-color: var(--Cyan);
+    opacity: 0;
+    transition: .5s ease ;
+    width:302px;
+    height: 302px;
+    border-radius: 10px;  
+    top:0;
+    left:0;
+    color: #ffff;
+    
+
+}
+ .icon-view{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+
+.picture__overlay:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+    
+}
+
+.picture__overlay:active{
+    opacity:0.8;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+#id{
+    
+    margin-left: 24px;
+    font-size:22px;
+    font-weight: 600px;
+    color: var(--White);
+    
+}
+a:hover{
+    color: var(--Cyan);   
+    cursor: pointer;
+}
+a:active{
+    color:var(--Cyan);
+    
+}
+#text{
+    margin-top: 22px;
+    margin-right: 25px;
+    margin-left:26px;
+    font-size:18px;
+    font-weight: 400px;
+    color: var(--Soft-blue);
+}
+
+.scoretime{
+    width: 302px;
+    height: 20px;
+    margin-left:26px;
+}
+.ethereumValue{
+    float:left;
+    display:flex;
+    align-items: center;
+}
+.timing{
+    float:right;
+    display:flex;
+    align-items: center;
+}
+#ethereum, #value{
+    display: inline;
+    
+}
+
+#value{
+    font-size:15px;
+    font-weight: 300px;
+    color: var(--Cyan);
+    margin-left:10px;
+}
+#clock, #time{
+    display:inline;
+    
+}
+#time{
+    font-size:15px;
+    font-weight: 300px;
+    color: var(--Soft-blue);
+    margin-left:10px;
+}
+#avatar{
+    width:33px;
+    height:33px;
+    border: 1px solid var(--White);
+    border-radius: 70px;
+}
+.line{
+    width: 302px;
+    height: 1px;
+    margin-left: 26px;
+    margin-top: 34px;
+    background-color: var(--blue-line);
+}
+.avatar{
+    margin-left:25px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+}
+#avatar, #creator{
+    display:inline-block;
+    
+}
+#creator{
+    margin-left: 17px;
+    color: var(--Soft-blue);
+    font-weight: 24px;
+}
+span.name{
+    color: var(--White);
+}
+
