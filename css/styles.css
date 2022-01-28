@@ -16,6 +16,7 @@ body{
     display: grid;
     border-radius: 20px;
     margin: 0 auto;
+    margin-top: 20px;
     text-align: left;
 }
 .scoretime{
@@ -179,3 +180,8 @@ span.name{
     color: var(--White);
 }
 
+@media screen and (max-width: 375px){
+    .container{
+        padding: 20px 10px 0px 10px;
+    }
+}
